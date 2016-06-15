@@ -7,27 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F24ECB271CFC52AB008E8F67 /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F24ECB261CFC52AB008E8F67 /* ApiManager.m */; };
+		F24ECB361CFC56AD008E8F67 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F24ECB2A1CFC56AD008E8F67 /* AFHTTPSessionManager.m */; };
+		F24ECB371CFC56AD008E8F67 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F24ECB2D1CFC56AD008E8F67 /* AFNetworkReachabilityManager.m */; };
+		F24ECB381CFC56AD008E8F67 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = F24ECB2F1CFC56AD008E8F67 /* AFSecurityPolicy.m */; };
+		F24ECB391CFC56AD008E8F67 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F24ECB311CFC56AD008E8F67 /* AFURLRequestSerialization.m */; };
+		F24ECB3A1CFC56AD008E8F67 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F24ECB331CFC56AD008E8F67 /* AFURLResponseSerialization.m */; };
+		F24ECB3B1CFC56AD008E8F67 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F24ECB351CFC56AD008E8F67 /* AFURLSessionManager.m */; };
+		F24ECB3E1CFC5BAE008E8F67 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F24ECB3D1CFC5BAE008E8F67 /* MBProgressHUD.m */; };
 		F2BBCBBB1CF9B72600DAFE0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BBCBBA1CF9B72600DAFE0E /* main.m */; };
 		F2BBCBBE1CF9B72600DAFE0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BBCBBD1CF9B72600DAFE0E /* AppDelegate.m */; };
-		F2BBCBC11CF9B72600DAFE0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BBCBC01CF9B72600DAFE0E /* ViewController.m */; };
 		F2BBCBC41CF9B72600DAFE0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BBCBC21CF9B72600DAFE0E /* Main.storyboard */; };
 		F2BBCBC71CF9B72600DAFE0E /* Login_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2BBCBC51CF9B72600DAFE0E /* Login_App.xcdatamodeld */; };
 		F2BBCBC91CF9B72600DAFE0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BBCBC81CF9B72600DAFE0E /* Assets.xcassets */; };
 		F2BBCBCC1CF9B72600DAFE0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BBCBCA1CF9B72600DAFE0E /* LaunchScreen.storyboard */; };
+		F2BBCBD51CF9B74800DAFE0E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BBCBD41CF9B74800DAFE0E /* BaseViewController.m */; };
+		F2BBCBD81CF9B81400DAFE0E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BBCBD71CF9B81400DAFE0E /* LoginViewController.m */; };
+		F2BBCBDB1CF9B85D00DAFE0E /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BBCBDA1CF9B85D00DAFE0E /* DetailsViewController.m */; };
+		F2BBCBDD1CF9B8D000DAFE0E /* splash_new.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BBCBDC1CF9B8D000DAFE0E /* splash_new.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F2BBCBB61CF9B72600DAFE0E /* Login App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24ECB251CFC52AB008E8F67 /* ApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiManager.h; sourceTree = "<group>"; };
+		F24ECB261CFC52AB008E8F67 /* ApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiManager.m; sourceTree = "<group>"; };
+		F24ECB291CFC56AD008E8F67 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		F24ECB2A1CFC56AD008E8F67 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		F24ECB2B1CFC56AD008E8F67 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		F24ECB2C1CFC56AD008E8F67 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		F24ECB2D1CFC56AD008E8F67 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		F24ECB2E1CFC56AD008E8F67 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		F24ECB2F1CFC56AD008E8F67 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		F24ECB301CFC56AD008E8F67 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		F24ECB311CFC56AD008E8F67 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		F24ECB321CFC56AD008E8F67 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		F24ECB331CFC56AD008E8F67 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		F24ECB341CFC56AD008E8F67 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		F24ECB351CFC56AD008E8F67 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		F24ECB3C1CFC5BAE008E8F67 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F24ECB3D1CFC5BAE008E8F67 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F2BBCBB61CF9B72600DAFE0E /* Wheelstreet Login App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wheelstreet Login App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BBCBBA1CF9B72600DAFE0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2BBCBBC1CF9B72600DAFE0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2BBCBBD1CF9B72600DAFE0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F2BBCBBF1CF9B72600DAFE0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F2BBCBC01CF9B72600DAFE0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F2BBCBC31CF9B72600DAFE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2BBCBC61CF9B72600DAFE0E /* Login_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Login_App.xcdatamodel; sourceTree = "<group>"; };
 		F2BBCBC81CF9B72600DAFE0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2BBCBCB1CF9B72600DAFE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2BBCBCD1CF9B72600DAFE0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BBCBD31CF9B74800DAFE0E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F2BBCBD41CF9B74800DAFE0E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F2BBCBD61CF9B81400DAFE0E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F2BBCBD71CF9B81400DAFE0E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F2BBCBD91CF9B85D00DAFE0E /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		F2BBCBDA1CF9B85D00DAFE0E /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		F2BBCBDC1CF9B8D000DAFE0E /* splash_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_new.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +74,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F24ECB281CFC56AD008E8F67 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				F24ECB291CFC56AD008E8F67 /* AFHTTPSessionManager.h */,
+				F24ECB2A1CFC56AD008E8F67 /* AFHTTPSessionManager.m */,
+				F24ECB2B1CFC56AD008E8F67 /* AFNetworking.h */,
+				F24ECB2C1CFC56AD008E8F67 /* AFNetworkReachabilityManager.h */,
+				F24ECB2D1CFC56AD008E8F67 /* AFNetworkReachabilityManager.m */,
+				F24ECB2E1CFC56AD008E8F67 /* AFSecurityPolicy.h */,
+				F24ECB2F1CFC56AD008E8F67 /* AFSecurityPolicy.m */,
+				F24ECB301CFC56AD008E8F67 /* AFURLRequestSerialization.h */,
+				F24ECB311CFC56AD008E8F67 /* AFURLRequestSerialization.m */,
+				F24ECB321CFC56AD008E8F67 /* AFURLResponseSerialization.h */,
+				F24ECB331CFC56AD008E8F67 /* AFURLResponseSerialization.m */,
+				F24ECB341CFC56AD008E8F67 /* AFURLSessionManager.h */,
+				F24ECB351CFC56AD008E8F67 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
 		F2BBCBAD1CF9B72600DAFE0E = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +105,7 @@
 		F2BBCBB71CF9B72600DAFE0E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F2BBCBB61CF9B72600DAFE0E /* Login App.app */,
+				F2BBCBB61CF9B72600DAFE0E /* Wheelstreet Login App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,16 +113,25 @@
 		F2BBCBB81CF9B72600DAFE0E /* Login App */ = {
 			isa = PBXGroup;
 			children = (
+				F24ECB3C1CFC5BAE008E8F67 /* MBProgressHUD.h */,
+				F24ECB3D1CFC5BAE008E8F67 /* MBProgressHUD.m */,
+				F24ECB281CFC56AD008E8F67 /* AFNetworking */,
 				F2BBCBBC1CF9B72600DAFE0E /* AppDelegate.h */,
 				F2BBCBBD1CF9B72600DAFE0E /* AppDelegate.m */,
-				F2BBCBBF1CF9B72600DAFE0E /* ViewController.h */,
-				F2BBCBC01CF9B72600DAFE0E /* ViewController.m */,
+				F2BBCBD31CF9B74800DAFE0E /* BaseViewController.h */,
+				F2BBCBD41CF9B74800DAFE0E /* BaseViewController.m */,
+				F2BBCBD61CF9B81400DAFE0E /* LoginViewController.h */,
+				F2BBCBD71CF9B81400DAFE0E /* LoginViewController.m */,
+				F2BBCBD91CF9B85D00DAFE0E /* DetailsViewController.h */,
+				F2BBCBDA1CF9B85D00DAFE0E /* DetailsViewController.m */,
 				F2BBCBC21CF9B72600DAFE0E /* Main.storyboard */,
 				F2BBCBC81CF9B72600DAFE0E /* Assets.xcassets */,
 				F2BBCBCA1CF9B72600DAFE0E /* LaunchScreen.storyboard */,
 				F2BBCBCD1CF9B72600DAFE0E /* Info.plist */,
 				F2BBCBC51CF9B72600DAFE0E /* Login_App.xcdatamodeld */,
 				F2BBCBB91CF9B72600DAFE0E /* Supporting Files */,
+				F24ECB251CFC52AB008E8F67 /* ApiManager.h */,
+				F24ECB261CFC52AB008E8F67 /* ApiManager.m */,
 			);
 			path = "Login App";
 			sourceTree = "<group>";
@@ -77,6 +139,7 @@
 		F2BBCBB91CF9B72600DAFE0E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F2BBCBDC1CF9B8D000DAFE0E /* splash_new.png */,
 				F2BBCBBA1CF9B72600DAFE0E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -85,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F2BBCBB51CF9B72600DAFE0E /* Login App */ = {
+		F2BBCBB51CF9B72600DAFE0E /* Wheelstreet Login App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2BBCBD01CF9B72600DAFE0E /* Build configuration list for PBXNativeTarget "Login App" */;
+			buildConfigurationList = F2BBCBD01CF9B72600DAFE0E /* Build configuration list for PBXNativeTarget "Wheelstreet Login App" */;
 			buildPhases = (
 				F2BBCBB21CF9B72600DAFE0E /* Sources */,
 				F2BBCBB31CF9B72600DAFE0E /* Frameworks */,
@@ -97,9 +160,9 @@
 			);
 			dependencies = (
 			);
-			name = "Login App";
+			name = "Wheelstreet Login App";
 			productName = "Login App";
-			productReference = F2BBCBB61CF9B72600DAFE0E /* Login App.app */;
+			productReference = F2BBCBB61CF9B72600DAFE0E /* Wheelstreet Login App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F2BBCBB11CF9B72600DAFE0E /* Build configuration list for PBXProject "Login App" */;
+			buildConfigurationList = F2BBCBB11CF9B72600DAFE0E /* Build configuration list for PBXProject "Wheelstreet Login App" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -129,7 +192,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F2BBCBB51CF9B72600DAFE0E /* Login App */,
+				F2BBCBB51CF9B72600DAFE0E /* Wheelstreet Login App */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2BBCBCC1CF9B72600DAFE0E /* LaunchScreen.storyboard in Resources */,
+				F2BBCBDD1CF9B8D000DAFE0E /* splash_new.png in Resources */,
 				F2BBCBC91CF9B72600DAFE0E /* Assets.xcassets in Resources */,
 				F2BBCBC41CF9B72600DAFE0E /* Main.storyboard in Resources */,
 			);
@@ -152,10 +216,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2BBCBC11CF9B72600DAFE0E /* ViewController.m in Sources */,
+				F24ECB271CFC52AB008E8F67 /* ApiManager.m in Sources */,
+				F24ECB371CFC56AD008E8F67 /* AFNetworkReachabilityManager.m in Sources */,
+				F2BBCBD51CF9B74800DAFE0E /* BaseViewController.m in Sources */,
 				F2BBCBBE1CF9B72600DAFE0E /* AppDelegate.m in Sources */,
 				F2BBCBBB1CF9B72600DAFE0E /* main.m in Sources */,
+				F2BBCBDB1CF9B85D00DAFE0E /* DetailsViewController.m in Sources */,
+				F24ECB381CFC56AD008E8F67 /* AFSecurityPolicy.m in Sources */,
+				F24ECB391CFC56AD008E8F67 /* AFURLRequestSerialization.m in Sources */,
 				F2BBCBC71CF9B72600DAFE0E /* Login_App.xcdatamodeld in Sources */,
+				F2BBCBD81CF9B81400DAFE0E /* LoginViewController.m in Sources */,
+				F24ECB3A1CFC56AD008E8F67 /* AFURLResponseSerialization.m in Sources */,
+				F24ECB3B1CFC56AD008E8F67 /* AFURLSessionManager.m in Sources */,
+				F24ECB361CFC56AD008E8F67 /* AFHTTPSessionManager.m in Sources */,
+				F24ECB3E1CFC5BAE008E8F67 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +344,7 @@
 				INFOPLIST_FILE = "Login App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "in.wheelstreet.loginapp.Login-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Wheelstreet Login App";
 			};
 			name = Debug;
 		};
@@ -281,14 +355,14 @@
 				INFOPLIST_FILE = "Login App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "in.wheelstreet.loginapp.Login-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Wheelstreet Login App";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F2BBCBB11CF9B72600DAFE0E /* Build configuration list for PBXProject "Login App" */ = {
+		F2BBCBB11CF9B72600DAFE0E /* Build configuration list for PBXProject "Wheelstreet Login App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2BBCBCE1CF9B72600DAFE0E /* Debug */,
@@ -297,13 +371,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2BBCBD01CF9B72600DAFE0E /* Build configuration list for PBXNativeTarget "Login App" */ = {
+		F2BBCBD01CF9B72600DAFE0E /* Build configuration list for PBXNativeTarget "Wheelstreet Login App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2BBCBD11CF9B72600DAFE0E /* Debug */,
 				F2BBCBD21CF9B72600DAFE0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

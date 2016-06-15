@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailsViewController.h
 //  Login App
 //
 //  Created by Jaswanth Jeenu on 28/05/16.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface DetailsViewController : BaseViewController
 
 @end
-

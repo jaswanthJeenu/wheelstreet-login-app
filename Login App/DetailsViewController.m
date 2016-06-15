@@ -1,27 +1,27 @@
 //
-//  ViewController.m
+//  DetailsViewController.m
 //  Login App
 //
 //  Created by Jaswanth Jeenu on 28/05/16.
 //  Copyright © 2016 Jaswanth Jeenu. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "DetailsViewController.h"
 
-@interface ViewController ()
+@interface DetailsViewController ()
 
 @end
 
-@implementation ViewController
+@implementation DetailsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
+
+
 
 @end
